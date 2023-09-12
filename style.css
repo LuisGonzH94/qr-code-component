@@ -11,17 +11,18 @@
   --dark-blue-color: hsl(218, 44%, 22%);
 }
 
-body{
+body {
   background-color: var(--light-gray-color);
   font-size: 15px;
   font-weight: 400;
   font-family: 'Outfit', sans-serif;
 }
 
-h1{
+h1 {
   color: var(--dark-blue-color);
 }
-p{
+
+p {
   color: var(--grayish-blue-color);
 }
 
@@ -33,21 +34,31 @@ p{
   height: 500px;
   border-radius: 5%;
   align-items: center;
-  
 }
+
 .image-qr-code img {
   width: 290px;
   margin-top: 17px;
   border-radius: 5%;
 }
+
 .qr-code-description {
   text-align: center;
   padding-top: 20px;
 }
-.desc-heading, .desc-para {
+
+.desc-heading,
+.desc-para {
   width: 260px;
 }
 
 .desc-para {
   padding-top: 15px;
+}
+
+@media screen and (min-width: 425px) and (max-width: 1440px) {
+  .layout-container {
+    width: 320px;
+    margin: 100px auto;
+  }
 }
