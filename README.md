@@ -5,7 +5,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -15,14 +14,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [QR-Code component solution using semantic HTML and CSS Flexbox](https://www.frontendmentor.io/solutions/qrcode-component-solution-using-semantic-html-and-css-flexbox--EkDnWufBQ)
+- Live Site URL: [QR-Code site](https://luisgonzh94.github.io/qr-code-component/)
 
 ## My process
 
@@ -34,7 +31,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I recently learned flexbox to align containers and elements respectively. A big confusion I had was to adjust or adapt the content to the correct screen size with *media query.* Its use is to adjust to different screen sizes and viewports, so anyone can browse the content (any project) from any device, be it a mobile or desktop.
+I recently learned flexbox to align containers and elements respectively. A big confusion I had was to adjust or adapt the content to the correct screen size with *media query.* Its use is to adjust to different screen sizes and viewports, so anyone can browse the content (any project) from any device, be it a mobile or desktop. However, after submitting my solution, the QR code image was not being displayed. Luckily, the frontend community quickly guided me. Also, I never had to apply media query on this project. 
+
+Although I've made changes to this challenge, I'm going to leave the media query just in case.
 
 ```css
 @media screen and (min-width: 425px) and (max-width: 1440px) {
@@ -49,7 +48,7 @@ I needed this realistic project to start off my HTML, CSS, and GIT and GITHUB sk
 
 ### Continued development
 
-This challange helped me to understand how important is *media query* to make my future projects a better responsive design, focusing on flexbox, grid, and proper alignment. 
+This challange helped me to understand how important is *media query* to make my future projects a better responsive design, focusing on flexbox, grid, and proper alignment. Also, this project is a great way to practice even if you make mistakes. *This is the way to learn how to code.
 
 I will continue to expand my knowledge by practicing ways to use HTML semantic structure and CSS flexbox design.
 
@@ -66,7 +65,7 @@ I will continue to expand my knowledge by practicing ways to use HTML semantic s
 
 ## Acknowledgments
 
-Thanks to the Frontend Mentor community and especially to Grace Snow who provided me with resource #1. It gave me a clear concept of what a responsive site means and its functions.
+Thanks to the Frontend Mentor community and especially to Grace Snow who provided me with resource #1,  Stephen Funderburk and Alex KMarshall who provided me some feedback. They gave me a clear concept of what a responsive site means and its functions, and when to use it. 
 
 I will continue working on more projects to improve my programming skills. There is a great variety of front-end development projects for those looking for a way to start their coding career. I highly recommend it. 
 
