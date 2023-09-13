@@ -1,5 +1,10 @@
 /* Create a flex container */
-* {
+*,
+h1,
+p,
+a {
+  font-size: 12px;
+  font-weight: 400;
   margin: 0px;
   padding: 0px;
 }
@@ -13,52 +18,52 @@
 
 body {
   background-color: var(--light-gray-color);
-  font-size: 15px;
-  font-weight: 400;
   font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   color: var(--dark-blue-color);
+  font-weight: 700;
+  font-size: 21px;
 }
 
 p {
   color: var(--grayish-blue-color);
+  font-size: 15px;
 }
 
 .layout-container {
   display: flex;
   flex-direction: column;
   background-color: var(--white-color);
-  margin: 70px 30px;
-  height: 500px;
-  border-radius: 5%;
-  align-items: center;
+  height: 470px;
+  border-radius: 15px;
+  margin: 80px;
 }
 
 .image-qr-code img {
-  width: 290px;
-  margin-top: 17px;
-  border-radius: 5%;
+  width: 250px;
+  margin: 15px;
+  border-radius: 10px;
 }
 
 .qr-code-description {
   text-align: center;
-  padding-top: 20px;
+  align-items: center;
+  width: 250px;
+  padding: 15px;
 }
 
-.desc-heading,
-.desc-para {
-  width: 260px;
-}
-
-.desc-para {
+.desc-para{
   padding-top: 15px;
 }
 
-@media screen and (min-width: 425px) and (max-width: 1440px) {
-  .layout-container {
-    width: 320px;
-    margin: 100px auto;
-  }
+.attribution p {
+  color: #000000;
+  font-size: 12px;
+  margin-top: auto;
 }
