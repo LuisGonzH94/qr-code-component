@@ -53,12 +53,11 @@ img {
   font-size: 1.2rem;
   color: var(--DarkBlue-heading);
   padding-top: 20px;
-  padding-left: 13px;
 }
 
 .para-qr-desc {
   color: var(--GrayishBlue-paragraph);
-  padding: 15px 13px 20px 13px;
+  padding: 20px 18px;
 }
 
 .footer-para,
